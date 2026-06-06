@@ -1,4 +1,4 @@
-<h1>Projekt informatyka </h1> 
+<h1> $${\color{yellow}Projekt \space informatyka}$$ </h1> 
 
 <details>
 <summary><h2> Projekt </h2></summary>
