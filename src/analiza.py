@@ -12,7 +12,7 @@ def analizuj_dane():
     # Tworzymy proste liczby testowe, żeby Python mógł narysować wykres bez błędów tekstowych
     dane_wykres = pd.Series([880, 863, 999])
     
-    # --- WYKRES 1: SŁUPKOWY ---
+    #WYKRES 1: SŁUPKOWY
     plt.figure(figsize=(8, 5))
     dane_wykres.plot(kind='bar', color='skyblue')
     plt.title("Wyniki testu Stroopa - Czas reakcji")
@@ -23,7 +23,7 @@ def analizuj_dane():
     plt.savefig("data/wykres_1.png")
     plt.close()
     
-    # --- WYKRES 2: LINIOWY ---
+    #WYKRES 2: LINIOWY
     plt.figure(figsize=(8, 5))
     dane_wykres.plot(kind='line', marker='o', linewidth=2, color='darkblue')
     plt.title("Trend zmian czasu reakcji w badaniu")
