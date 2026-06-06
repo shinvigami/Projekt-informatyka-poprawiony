@@ -4,8 +4,8 @@ import pandas as pd
 import os
 
 def pobierz_dane():
-  url = "https://link.springer.com/article/10.1186/1744-9081-3-42/tables/2"
-kod_strony = requests.get(url).text    #pobieranie strony
+   url = "https://link.springer.com/article/10.1186/1744-9081-3-42/tables/2"
+  kod_strony = requests.get(url).text    #pobieranie strony
 soup = BeautifulSoup(kod_strony, "html.parser")
 
 tabela = soup.find("table")    #wyciąganie danych z tabeli
