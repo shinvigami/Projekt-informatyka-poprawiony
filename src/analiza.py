@@ -7,12 +7,12 @@ def analizuj_dane():
   print(df.describe()) 
   #pierwszy wykres, słupkowy
   plt.figure()    
-  df.iloc[1:5, 1].astype(float).plot(kind='bar')
+  df.iloc[0:1, 1].plot(kind='bar')
   plt.savefig("data/wykres_1.png")
   plt.close()
   #drugi wykres, linowy
   plt.figure()    
-  df.iloc[1:5, 2].astype(float).plot(kind='line')
+  df.iloc[0:1, 2].plot(kind='line')
   plt.savefig("data/wykres_2.png")
   plt.close()
 
