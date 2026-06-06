@@ -6,6 +6,8 @@
 <h3> Opis projektu</h3>
 
 Skrypt pobiera dane ze strony internetowej z wynikami badań medycznych testu stroopa, której byli poddawane dwie grupy: *grupa osób z adhd*, *grupa kontrolna*.
+
+
 Skrypt wyciąga wyniki z tabeli i tworzy na jej podstawie dwa wykresy: *słupkowy*, *liniowy*
 
 <h3> Użyte biblioteki</h3>
