@@ -36,7 +36,7 @@ Skrypt wyciąga wyniki z tabeli i tworzy na jej podstawie dwa wykresy: *słupkow
 
 
 ```python
-pip install -r.requirements.txt
+pip install -r requirements.txt
 ```
 
 </details>
