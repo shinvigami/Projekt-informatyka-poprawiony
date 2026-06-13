@@ -21,8 +21,8 @@ def analizuj_dane():
     
     #Tworzymy wykres z dwiema grupami obok siebie
     x = range(len(proby))
-    plt.bar([i - 0.2 for i in x], adhd_czyste, width=0.4, label='Grupa ADHD', color='skyblue')
-    plt.bar([i + 0.2 for i in x], control_czyste, width=0.4, label='Grupa Kontrolna', color='lightcoral')
+    plt.bar([i - 0.2 for i in x], adhd_czyste, width=0.4, label='Grupa ADHD', color='blue')
+    plt.bar([i + 0.2 for i in x], control_czyste, width=0.4, label='Grupa Kontrolna', color='pink')
     
     plt.title("Wyniki testu Stroopa - Czas reakcji")
     plt.xlabel("Warunek testu")
