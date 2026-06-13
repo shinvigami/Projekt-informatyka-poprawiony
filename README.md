@@ -61,7 +61,7 @@ python main.py
 
 <details>
  
- <summary><h2> Podziękowania </h2></summary>
+ <summary><h2> $${\color{red}Podziękowania}$$ </h2></summary>
 
 *DZIĘKI ZIOMEK DZIĘKI*
 
